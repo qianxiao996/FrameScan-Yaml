@@ -5,7 +5,7 @@
 ## 工具使用
 
 ```python
-Usage: poc_test.exe [OPTIONS]
+Usage: FrameScan-Yaml.exe [OPTIONS]
 
 Options:
   --version               Show the version and exit.
