@@ -48,7 +48,7 @@ rules:
     output:
       serial: re.search('\w+',response.text).group()
       html: re.search('refresh',response.text).group()
-expression: r1 && r2
+expression: r1() && r2()
 #信息部分
 detail:
   author: qianxiao996
@@ -121,7 +121,7 @@ rules:
     output:
       serial: re.search('\w+',response.text).group()
       html: re.search('refresh',response.text).group()
-expression: r1 && r2
+expression: r1() && r2()
 ```
 
 1. rules以及单个rule的名称
@@ -168,7 +168,7 @@ expression: r1 && r2
 对于脚本层级的 expression，这个结果作为最后脚本是否匹配成功的值，通常脚本层级的 expression 是 rule 结果的一个组合。 比如一个脚本包含 `r1`, `r2`, `r3`，`r4` 4 条规则， 作为脚本层级的 expression，其全局变量将会定义 `r1`, `r2`, `r3`， `r4` 4 个函数，调用这个 4 个函数即可获得它对应 rule 的结果。
 
 ```yaml
-expression: r1 && r2 && r3 && r4
+expression: r1() && r2() && r3() && r4()
 ```
 
 #### set关键字的使用
