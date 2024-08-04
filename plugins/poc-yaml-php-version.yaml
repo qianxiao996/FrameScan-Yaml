@@ -16,8 +16,8 @@ output: $version_Server $version_xpb
 expression: r1()
 detail:
   name: 'PHP版本号泄露漏洞'
-  category: 敏感信息泄露
-  subassembly: PHP
+  group: 敏感信息泄露
+  category: PHP
   author: qianxiao996
   vuln_id: 无
   description: 'PHP版本号泄露漏洞'

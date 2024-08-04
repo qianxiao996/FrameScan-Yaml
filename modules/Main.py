@@ -165,7 +165,7 @@ class Main:
                 data = yaml.load(stream=f, Loader=yaml.FullLoader)
                 f.close()
                 if cms=="all" or  cms == data.get("detail").get("subassembly")  :
-                    table.add_row([data.get("detail").get("category"),data.get("detail").get("name"),data.get("detail").get("subassembly"),data.get("name"),data.get("detail").get("author"),data.get("detail").get("vuln_id")])
+                    table.add_row([data.get("detail").get("group"),data.get("detail").get("name"),data.get("detail").get("category"),data.get("name"),data.get("detail").get("author"),data.get("detail").get("vuln_id")])
                     all_poc.append(data)
         return table,all_poc
     def read_file_to_list(self,file_path):

@@ -54,8 +54,8 @@ detail:
   author: qianxiao996
   vuln_id: cve-2019-2222
   description: '111'
-  category: 敏感信息泄露
-  subassembly: ALL
+  group: 敏感信息泄露
+  category: ALL
   links:
     - http://example.com
 #全局变量
@@ -292,7 +292,7 @@ payload:
 detail:
   name: '目录浏览漏洞'
   author: qianxiao996
-  category: 目录浏览
+  category: ALL
   vuln_id: 无
   description: '目录浏览'
   links: []
@@ -309,8 +309,8 @@ detail:
   name: #中文的漏洞名称
   author: # 作者（个人主页）
   vuln_id: #漏洞编号
-  category: #分类
-  subassembly: #组件，例如通达OA
+  group: #分组
+  category: #组件，例如通达OA
   links:
     - # 参考链接
     - # 可以是多个链接

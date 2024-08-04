@@ -14,8 +14,8 @@ expression: r1()
 detail:
   name: '.DS_Store文件泄露'
   author: qianxiao996
-  category: 敏感信息泄露
-  subassembly: ALL
+  group: 敏感信息泄露
+  category: ALL
   vuln_id: 无
   description: '.DS_Store文件泄露'
   links: []

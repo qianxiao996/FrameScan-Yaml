@@ -15,8 +15,8 @@ output: $version_Server
 expression: r1()
 detail:
   name: 'Apache版本号泄露漏洞'
-  category: 敏感信息泄露
-  subassembly: Apahce
+  group: 敏感信息泄露
+  category: Apahce
   author: qianxiao996
   vuln_id: 无
   description: 'apache版本号泄露漏洞'

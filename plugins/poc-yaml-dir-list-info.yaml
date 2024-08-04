@@ -46,7 +46,7 @@ payload:
 detail:
   name: '目录浏览漏洞'
   author: qianxiao996
-  category: 敏感信息泄露
+  group: 敏感信息泄露
   vuln_id: 无
   description: '目录浏览'
   links: []
