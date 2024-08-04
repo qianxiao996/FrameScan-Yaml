@@ -17,8 +17,8 @@ expression: r1()
 detail:
   name: 'Nginx版本号泄露漏洞'
   author: qianxiao996
-  category: 敏感信息泄露
-  subassembly: Nginx
+  group: 敏感信息泄露
+  category: Nginx
   vuln_id: 无
   description: 'Nginx版本号泄露漏洞'
   links: []

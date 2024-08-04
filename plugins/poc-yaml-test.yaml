@@ -31,8 +31,8 @@ detail:
   name: 测试漏洞
   author: qianxiao996
   vuln_id: cve-2019-2222
-  category: 敏感信息泄露
-  subassembly: ALL
+  group: 敏感信息泄露
+  category: ALL
   description: '111'
   links:
     - http://example.com

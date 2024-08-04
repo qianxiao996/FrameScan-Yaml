@@ -17,8 +17,8 @@ expression: r1()
 detail:
   name: 'TongWeb信息泄露'
   author: qianxiao996
-  category: 敏感信息泄露
-  subassembly: Tongweb
+  group: 敏感信息泄露
+  category: Tongweb
   vuln_id: 无
   description: 'TongWeb信息泄露'
   links: []

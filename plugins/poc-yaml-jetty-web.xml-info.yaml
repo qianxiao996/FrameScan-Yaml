@@ -57,8 +57,8 @@ expression: r1() || r2() || r3() || r4() || r5()
 detail:
   name: Jetty web.xml敏感信息泄露
   author: qianxiao996
-  category: 敏感信息泄露
-  subassembly: Jetty
+  group: 敏感信息泄露
+  category: Jetty
   vuln_id: CVE-2021-28164,CVE-2021-34429
   description: 'jetty web.xml敏感信息泄露'
   links: []

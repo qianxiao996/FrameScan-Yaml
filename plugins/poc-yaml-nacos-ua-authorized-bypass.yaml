@@ -42,8 +42,8 @@ expression: (r1() && r2()) || r3()
 detail:
   name: 'Nacos未授权访问CVE-2021-29441'
   author: qianxiao996
-  category: 未授权访问
-  subassembly: Nacos
+  group: 未授权访问
+  category: Nacos
   vuln_id: CVE-2021-29441
   description: 'Nacos未授权访问CVE-2021-29441'
   links: []

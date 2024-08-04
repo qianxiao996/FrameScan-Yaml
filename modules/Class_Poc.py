@@ -146,7 +146,7 @@ class Class_Poc:
         return Fore.MAGENTA +"["+Fore.CYAN+"Debug"+Fore.MAGENTA+"]["+Fore.CYAN+type+Fore.MAGENTA+"] "+text
     def main_poc_expression(self,expression):
         poc_expression = self.replace_Template_var(expression)
-        poc_expression =expression.replace("&&","and").replace("||","or")
+        poc_expression =expression.replace("&&"," and ").replace("||"," or ")
         for i in self.all_request_name_list:
             poc_expression = poc_expression.replace(str(i)+"()",str(self.all_request_name_list[i]))
             # print(poc_expression)

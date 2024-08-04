@@ -16,8 +16,8 @@ expression: r1()
 detail:
   name: 'Python版本号泄露'
   author: qianxiao996
-  category: 敏感信息泄露
-  subassembly: Python
+  group: 敏感信息泄露
+  category: Python
   vuln_id: 无
   description: '返回头中的server字段泄露python版本号'
   links: []

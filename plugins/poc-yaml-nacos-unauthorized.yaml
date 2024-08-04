@@ -13,8 +13,8 @@ expression: r1()
 detail:
   name: 'Nacos鉴权未开启'
   author: qianxiao996
-  category: 未授权访问
-  subassembly: Nacos
+  group: 未授权访问
+  category: Nacos
   vuln_id: 无
   description: 'Nacos鉴权未开启'
   links: []
